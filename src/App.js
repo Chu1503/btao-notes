@@ -41,7 +41,7 @@ function App() {
           value={newNote}
           onChange={(e) => setNewNote(e.target.value)}
           className="p-2 border-2 border-gray-300 w-full mb-4"
-          placeholder="Type a new note here..."
+          placeholder="help me..."
         />
         <button onClick={addNote} className="p-2 bg-white border-2 border-gray-300 text-xl">+</button>
         <div>
